@@ -5,7 +5,7 @@ import "../styles/lifestore.css";
 
 const Lifestore = ({ handleClick }) => {
   return (
-    <section>
+    <section className="">
       {list.map((item) => (
         <Cards key={item.sku} item={item} handleClick={handleClick} />
       ))}
